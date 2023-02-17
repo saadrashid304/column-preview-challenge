@@ -1,0 +1,39 @@
+.mainContainer {
+  margin-top: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subContainer {
+  width: 1500px;
+  /* height: 580px; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+@media screen and (max-width: 1570px) {
+  .mainContainer {
+    margin-top: 10rem;
+  }
+
+  .subContainer {
+    width: 500px;
+    margin-bottom: 10rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .mainContainer {
+    margin-top: 1rem;
+  }
+
+  .subContainer {
+    width: 300px;
+    margin-top: 1.2rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+  }
+}
