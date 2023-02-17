@@ -1,12 +1,14 @@
 .mainContainer {
-  margin-top: 25vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  left: 400px;
+  top: 200px;
 }
 
 .subContainer {
-  width: 1500px;
+  /* width: 1500px; */
   /* height: 580px; */
   display: flex;
   flex-wrap: wrap;
@@ -15,25 +17,50 @@
 
 @media screen and (max-width: 1570px) {
   .mainContainer {
-    margin-top: 10rem;
+    left: 200px;
   }
+}
 
-  .subContainer {
-    width: 500px;
-    margin-bottom: 10rem;
+@media screen and (max-width: 1320px) {
+  .mainContainer {
+    left: 100px;
+  }
+}
+
+@media screen and (max-width: 1214px) {
+  .mainContainer {
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 1165px) {
+  .mainContainer {
+    width: 350px;
+    top: 0px;
+    left: 380px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .mainContainer {
+    left: 190px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .mainContainer {
+    left: 95px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mainContainer {
+    left: 70px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .mainContainer {
-    margin-top: 1rem;
-  }
-
-  .subContainer {
-    width: 300px;
-    margin-top: 1.2rem;
-    margin-left: 0rem;
-    margin-right: 0rem;
-    margin-bottom: 2rem;
+    left: 5px;
   }
 }
